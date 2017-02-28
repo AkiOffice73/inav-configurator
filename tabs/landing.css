@@ -19,7 +19,7 @@
 }
 
 .tab-landing .content_mid {
-    background-color: #37a8db;
+    background-color: #e95420;
     overflow: hidden;
 }
 
@@ -44,7 +44,8 @@
 }
 
 .tab-landing .logowrapper img {
-    width: 700px;
+    /*width: 700px;*/
+    height: 90px;
     margin: 10px;
 }
 

@@ -4,7 +4,7 @@
 }
 
 .preset__head {
-    color: #37a8db;
+    color: #e95420;
 }
 
 .preset__description {
@@ -17,7 +17,7 @@
 
 .preset__feature {
     list-style: disc;
-    color: #37a8db;
+    color: #e95420;
     margin-left: 1.5em;
 }
 

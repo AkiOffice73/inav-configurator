@@ -35,7 +35,7 @@
         "message": "Device - <span style=\"color: red\">Rebooting</span>"
     },
     "deviceReady": {
-        "message": "Device - <span style=\"color: #37a8db\">Ready</span>"
+        "message": "Device - <span style=\"color: #e95420\">Ready</span>"
     },
 
     "backupFileIncompatible": {
@@ -124,26 +124,26 @@
     },
 
     "serialPortOpened": {
-        "message": "Serial port <span style=\"color: #37a8db\">successfully</span> opened with ID: $1"
+        "message": "Serial port <span style=\"color: #e95420\">successfully</span> opened with ID: $1"
     },
     "serialPortOpenFail": {
         "message": "<span style=\"color: red\">Failed</span> to open serial port"
     },
     "serialPortClosedOk": {
-        "message": "Serial port <span style=\"color: #37a8db\">successfully</span> closed"
+        "message": "Serial port <span style=\"color: #e95420\">successfully</span> closed"
     },
     "serialPortClosedFail": {
         "message": "<span style=\"color: red\">Failed</span> to close serial port"
     },
 
     "usbDeviceOpened": {
-        "message": "USB device <span style=\"color: #37a8db\">successfully</span> opened with ID: $1"
+        "message": "USB device <span style=\"color: #e95420\">successfully</span> opened with ID: $1"
     },
     "usbDeviceOpenFail": {
         "message": "<span style=\"color: red\">Failed</span> to open USB device!"
     },
     "usbDeviceClosed": {
-        "message": "USB device <span style=\"color: #37a8db\">successfully</span> closed"
+        "message": "USB device <span style=\"color: #e95420\">successfully</span> closed"
     },
     "usbDeviceCloseFail": {
         "message": "<span style=\"color: red\">Failed</span> to close USB device"
@@ -176,10 +176,10 @@
         "message": "Firmware Version: <strong>$1</strong>"
     },
     "apiVersionReceived": {
-        "message": "MultiWii API version <span style=\"color: #37a8db\">received</span> - <strong>$1</strong>"
+        "message": "MultiWii API version <span style=\"color: #e95420\">received</span> - <strong>$1</strong>"
     },
     "uniqueDeviceIdReceived": {
-        "message": "Unique device ID <span style=\"color: #37a8db\">received</span> - <strong>0x$1</strong>"
+        "message": "Unique device ID <span style=\"color: #e95420\">received</span> - <strong>0x$1</strong>"
     },
     "boardInfoReceived": {
         "message": "Board: <strong>$1</strong>, version: <strong>$2</strong>"
@@ -224,7 +224,7 @@
         "message": "Please use the Firmware Flasher to access DFU devices"
     },
     "dfu_erased_kilobytes": {
-        "message": "Erased $1 kB of flash <span style=\"color: #37a8db\">successfully</span>"
+        "message": "Erased $1 kB of flash <span style=\"color: #e95420\">successfully</span>"
     },
     "dfu_device_flash_info": {
         "message": "Detected device with total flash size $1 kiB"
@@ -234,7 +234,7 @@
     },
 
     "eeprom_saved_ok": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "defaultWelcomeIntro": {
@@ -306,7 +306,7 @@
     },
 
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span style=\"color: red\">Backup and restore functionality disabled.</span>  You have firmware with API version <span style=\"color: red\">$1</span>, backup and restore requires <span style=\"color: #37a8db\">$2</span>.  Please backup your settings via the CLI, see INAV documentation for procedure."
+        "message": "<span style=\"color: red\">Backup and restore functionality disabled.</span>  You have firmware with API version <span style=\"color: red\">$1</span>, backup and restore requires <span style=\"color: #e95420\">$2</span>.  Please backup your settings via the CLI, see INAV documentation for procedure."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrate Accelerometer"
@@ -336,10 +336,10 @@
         "message": "<strong>Backup</strong> your configuration in case of an accident, <strong>CLI</strong> settings are <span style=\"color: red\">not</span> included - See 'dump' cli command"
     },
     "initialSetupBackupSuccess": {
-        "message": "Backup saved <span style=\"color: #37a8db\">successfully</span>"
+        "message": "Backup saved <span style=\"color: #e95420\">successfully</span>"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Configuration restored <span style=\"color: #37a8db\">successfully</span>"
+        "message": "Configuration restored <span style=\"color: #e95420\">successfully</span>"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Reset Z axis, offset: 0 deg"
@@ -438,19 +438,19 @@
         "message": "Accelerometer calibration started"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Accelerometer calibration <span style=\"color: #37a8db\">finished</span>"
+        "message": "Accelerometer calibration <span style=\"color: #e95420\">finished</span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Magnetometer calibration started"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Magnetometer calibration <span style=\"color: #37a8db\">finished</span>"
+        "message": "Magnetometer calibration <span style=\"color: #e95420\">finished</span>"
     },
     "initialSetupSettingsRestored": {
         "message": "Settings restored to <strong>default</strong>"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "featureRX_PPM": {
@@ -721,7 +721,7 @@
         "message": "NRF24 protocol"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
     "configurationButtonSave": {
         "message": "Save and Reboot"
@@ -821,13 +821,13 @@
         "message": "Profile"
     },
     "pidTuningLoadedProfile": {
-        "message": "Loaded Profile: <strong style=\"color: #37a8db\">$1</strong>"
+        "message": "Loaded Profile: <strong style=\"color: #e95420\">$1</strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "PID data <strong>refreshed</strong>"
     },
     "pidTuningEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "receiverHelp": {
@@ -885,7 +885,7 @@
         "message": "RC Tuning data <strong>refreshed</strong>"
     },
     "receiverEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "auxiliaryHelp": {
@@ -904,7 +904,7 @@
         "message": "Save"
     },
     "auxiliaryEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "adjustmentsHelp": {
@@ -1076,7 +1076,7 @@
         "message": "Save"
     },
     "adjustmentsEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "transponderNotSupported": {
@@ -1104,7 +1104,7 @@
         "message": "Transponder data is <span style=\"color: red\">invalid</span>"
     },
     "transponderEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "servosFirmwareUpgradeRequired": {
@@ -1147,7 +1147,7 @@
         "message": "Reverse"
     },
     "servosEepromSave": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "gpsHead": {
@@ -1506,7 +1506,7 @@
         "message": "HEX file appears to be corrupted"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
-        "message": "<span style=\"color: #37a8db\">Remote Firmware loaded, ready for flashing</span>"
+        "message": "<span style=\"color: #e95420\">Remote Firmware loaded, ready for flashing</span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Failed to load remote firmware"
@@ -1519,7 +1519,7 @@
         "message": "Save"
     },
     "ledStripEepromSaved": {
-        "message": "EEPROM <span style=\"color: #37a8db\">saved</span>"
+        "message": "EEPROM <span style=\"color: #e95420\">saved</span>"
     },
 
     "controlAxisRoll": {
