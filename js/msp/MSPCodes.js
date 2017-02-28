@@ -13,6 +13,9 @@ var MSPCodes = {
     MSP_NAV_POSHOLD:            12,
     MSP_SET_NAV_POSHOLD:        13,
 
+    MSP_POSITION_ESTIMATION_CONFIG: 16,
+    MSP_SET_POSITION_ESTIMATION_CONFIG: 17,
+
     // MSP commands for Cleanflight original features
     MSP_CHANNEL_FORWARDING:     32,
     MSP_SET_CHANNEL_FORWARDING: 33,
@@ -61,7 +64,7 @@ var MSPCodes = {
     MSP_SET_SENSOR_CONFIG:      97,
 
     // Multiwii MSP commands
-    MSP_IDENT:              100,
+    MSP_IDENT:              100, //deprecated, do not use
     MSP_STATUS:             101,
     MSP_RAW_IMU:            102,
     MSP_SERVO:              103,
