@@ -16,6 +16,8 @@ TABS.sensors.initialize = function (callback) {
             SENSOR_DATA.magnetometer[i] = 0;
             SENSOR_DATA.sonar = 0;
             SENSOR_DATA.altitude = 0;
+        }
+        for (var i = 0; i < SENSOR_DATA.debug.length; i++) {
             SENSOR_DATA.debug[i] = 0;
         }
     }
@@ -258,6 +260,11 @@ TABS.sensors.initialize = function (callback) {
             initDataArray(1),
             initDataArray(1),
             initDataArray(1),
+            initDataArray(1),
+            initDataArray(1),
+            initDataArray(1),
+            initDataArray(1),
+            initDataArray(1),
             initDataArray(1)
         ];
 
@@ -270,7 +277,12 @@ TABS.sensors.initialize = function (callback) {
             initGraphHelpers('#debug1', samples_debug_i),
             initGraphHelpers('#debug2', samples_debug_i),
             initGraphHelpers('#debug3', samples_debug_i),
-            initGraphHelpers('#debug4', samples_debug_i)
+            initGraphHelpers('#debug4', samples_debug_i),
+            initGraphHelpers('#debug5', samples_debug_i),
+            initGraphHelpers('#debug6', samples_debug_i),
+            initGraphHelpers('#debug7', samples_debug_i),
+            initGraphHelpers('#debug8', samples_debug_i),
+            initGraphHelpers('#debug9', samples_debug_i)
         ];
 
         var raw_data_text_ements = {
@@ -471,7 +483,7 @@ TABS.sensors.initialize = function (callback) {
             }
 
             function update_debug_graphs() {
-                for (var i = 0; i < 4; i++) {
+                for (var i = 0; i < SENSOR_DATA.debug.length; i++) {
                     updateGraphHelperSize(debugHelpers[i]);
 
                     addSampleToData(debug_data[i], samples_debug_i, [SENSOR_DATA.debug[i]]);
