@@ -3,9 +3,9 @@
     "minimum_chrome_version": "38",
     "version": "1.6.3",
     "author": "Several",
-    "name": "INAV - Configurator",
-    "short_name": "INAV",
-    "description": "Crossplatform configuration tool for INAVFlight flight control system",
+    "name": "XF - Configurator",
+    "short_name": "XF",
+    "description": "Crossplatform configuration tool for XFlight flight control system",
 
     "offline_enabled": true,
 
