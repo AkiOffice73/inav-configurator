@@ -169,7 +169,7 @@ var FC = {
             barometer: 0,
             sonar: 0,
             kinematics: [0.0, 0.0, 0.0],
-            debug: [0, 0, 0, 0]
+            debug: [0, 0, 0, 0, 0, 0]
         };
 
         MOTOR_DATA = new Array(8);

@@ -395,7 +395,7 @@ var mspHelper = (function (gui) {
             case MSPCodes.MSP_DEBUGMSG:
                 break;
             case MSPCodes.MSP_DEBUG:
-                for (i = 0; i < 4; i++)
+                for (i = 0; i < 6; i++)
                     SENSOR_DATA.debug[i] = data.getInt16((2 * i), 1);
                 break;
             case MSPCodes.MSP_SET_MOTOR:
